@@ -1,0 +1,57 @@
+// @import 'normalize.css';
+.NoWrap:nth-child(4) {
+    .Title_lever2 {
+        .colorHover {
+            ul {
+                position: absolute;
+                padding: 0;
+                display: block;
+                left: 78rem;
+                width: 100vw;
+                height: 31rem;
+                &::after {
+                    display: block;
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: -7.4rem;
+                    height: 100%;
+                    width: 8rem;
+                }
+            }
+        }
+    }
+}
+.Title_lever2 {
+    &:hover .colorHover {
+        display: block;
+    }
+    &:nth-child(1) .colorHover ul {
+        padding: 0;
+        top: 1.3rem;
+    }
+    &:nth-child(2) .colorHover ul {
+        padding: 0;
+        top: 1.3rem;
+    }
+    &:nth-child(3) .colorHover ul {
+        padding: 0;
+        top: 1.3rem;
+    }
+    &:nth-child(5) .colorHover ul {
+        padding: 0;
+
+        top: 1.3rem;
+    }
+    &:nth-child(6) .colorHover ul {
+        padding: 0;
+        top: 1.3rem;
+    }
+    &:nth-child(2) .colorHover ul {
+        padding: 0;
+        top: 1.3rem;
+    }
+    .colorHover {
+        display: none;
+    }
+}

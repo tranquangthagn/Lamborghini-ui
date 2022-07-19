@@ -1,0 +1,24 @@
+.Title_Lever3 {
+    ul {
+        position: absolute;
+        padding: 0;
+        display: block;
+        left: 35.1rem;
+        width: 100vw;
+        height: 31rem;
+
+        &::after {
+            display: block;
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: -7.4rem;
+            height: 100%;
+            width: 8rem;
+        }
+    }
+    li {
+        transition: all 0.5s;
+        color: rgb(133, 133, 133);
+    }
+}

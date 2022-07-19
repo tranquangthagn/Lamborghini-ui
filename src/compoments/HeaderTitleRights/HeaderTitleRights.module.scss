@@ -1,0 +1,37 @@
+.Title_Right {
+    a {
+        font-weight: 300;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #fff;
+        list-style: none;
+        text-transform: uppercase;
+        position: relative;
+    }
+    a::after {
+        position: absolute;
+        display: block;
+        content: ' ';
+        background-color: #fff;
+        left: 0;
+        top: calc(100% + (0.5rem));
+        width: 0;
+        height: 1px;
+        transition: width 0.3s ease-in-out;
+    }
+    &:hover a::after {
+        width: 100%;
+    }
+}
+.Title_Right + .Title_Right {
+    margin-left: 26px;
+}
+.List_Right {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.headerRight {
+    display: flex;
+}

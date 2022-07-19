@@ -1,0 +1,28 @@
+.Header {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    height: 94px;
+}
+.LogoPage {
+    width: 6rem;
+    height: auto;
+    margin-right: 1.2rem;
+}
+.navHeader {
+    padding: 16px 60px;
+    background-color: #181818;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.WarpLeft {
+    display: flex;
+}
+.WarpRight {
+    display: flex;
+    align-items: center;
+}
